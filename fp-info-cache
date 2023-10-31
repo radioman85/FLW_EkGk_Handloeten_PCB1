@@ -1,4 +1,4 @@
-25326847505122
+28706010270016
 NiksKiCadLibrary
 7443251600
 
@@ -83,6 +83,20 @@ SOIC-16
 0
 16
 16
+NiksKiCadLibrary
+SOIC-16-SOIC127P600X175-16N
+SO-16
+Integrated Circuit
+0
+16
+16
+NiksKiCadLibrary
+SW_B3U-3100P_OMR
+
+B3U-3100P 
+0
+3
+3
 NiksKiCadLibrary
 TP_3Point
 
