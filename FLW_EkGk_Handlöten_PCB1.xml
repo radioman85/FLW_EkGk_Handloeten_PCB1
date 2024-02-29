@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\98-Others\FLW_EkGk_Handloeten_PCB1\FLW_EkGk_Handlöten_PCB1.kicad_sch</source>
+    <date>21-Nov-23 21:35:43</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FLW_EkGk_Handlöten_PCB1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Praxis1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Praxis2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Praxis3.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>RPi-Pico</value>
+      <footprint>FabLabWintiLibrary:RPi_Pico_SMD_TH</footprint>
+      <libsource lib="FabLabWintiLibrary" part="RPi-Pico" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FLW_EkGk_Handlöten_PCB1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c9b447d-5a6f-4584-9868-8936b7dd5362 503e3ef2-7b04-43e0-a1f0-9eae20e65063</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>5ec953e6-bd1c-45c5-9996-425c66478ae9</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>b46ec110-7bea-4bd8-8811-931d770c3c80</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>936df44e-a69f-4455-bfea-10ab6195f9ad</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>d5db9a8c-501e-43f6-9cbf-76cbfb48e569</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>f925d1c4-4f75-42e6-bff6-1b8acf0eb0d7</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>1d2853f6-86b5-4990-8ad7-135e68372701</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>4e1075f3-9290-43b3-99f1-83eff1d4df88</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>26666eb2-72c7-481f-a694-ee45351661a4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>82a18d31-8141-43f5-b2fc-9540542d9725</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>4301f80a-992c-44cc-80de-b815f36b30c1</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>df0a4498-90ec-4594-9f9a-dd9843d05147</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>6574498d-ac95-4d61-8d21-439e6786473b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>c56451bd-a132-4d0c-acae-856f1be43eef</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>45d5be6c-c2a3-4297-9e03-b6ef40671616</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>99d1e49d-c578-4171-a277-3615129315a7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>e9a9ffcb-12f3-48ba-9772-e5adc1f37f06</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>6ed0e651-91a1-4143-a4ef-27abb13fdfcf</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>ac116434-cdb8-4481-bdfe-77639593ec79</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>78167c02-e662-4a9b-91fb-3e6987f7f646</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>b5041f04-d642-4ae1-8f1f-b684d4a12e8b</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>197d3c51-7663-4129-a60b-d1cd4143a79c</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>37eaa1c4-6e72-4564-8a09-c69c6406db90</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>3b4e071c-bcd7-4202-bc59-f62ef1975aa0</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>e063a83c-62a9-4264-a3c2-893d78db59f9</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>4e5ffcb1-7f67-427f-83e4-da4599ffacd9</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>40c7e988-dec3-47dd-9af7-190a07d59752</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>041013f1-7ada-45c1-aa12-049fea06d31b</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>193efc2a-d536-4b44-a9f1-42a283d102d2</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>f5e158aa-56a9-4360-80f7-a982105fb0cd</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>04a9ed51-3935-49c5-9498-7b76db925253</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>cff32251-704b-4413-b7ce-56a0e27f33df</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>adf81828-762e-4ef4-99ad-64290c0ab138</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>2618997b-7e85-47d3-9b58-f983bf9f1dac</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>4ef1cfcd-9642-48b0-99f9-0ae78c767d38</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>b7544ab1-840f-4cdb-91e7-04db21af2e48</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>c4a5cf32-ab89-4332-b82a-1577fdc5d717</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>f7bd9b39-765a-4a46-a668-a39f231d174d</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>7bdfa383-0ff9-474a-b905-ccbf808ff0f5</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>e1524519-c9f1-47e5-863a-ec00249e3e43</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>785d77e0-4b07-4571-ad56-ea79bebf11d1</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>65573c69-6ff8-4485-bd8a-c3596d34806e</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>5331dae2-a25a-41ae-8f22-b00f4af0ad62</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>89ac50b7-8325-41a8-9923-080c55a59ebd</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 1"/>
+      <property name="Sheetfile" value="Praxis1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 1/" tstamps="/8fd1a1fe-a48c-4988-8d15-515e0e4cd116/"/>
+      <tstamps>01766d8f-41f4-4532-ad30-4973105244ba</tstamps>
+    </comp>
+    <comp ref="LED60">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>d3f3c0d7-dfa3-4196-b98a-152b14695de2</tstamps>
+    </comp>
+    <comp ref="LED61">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>a9143e7a-de56-4d28-adc5-ece409182d12</tstamps>
+    </comp>
+    <comp ref="LED62">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>2c5e015d-580c-4bd3-a95a-643f1eda9ec5</tstamps>
+    </comp>
+    <comp ref="LED63">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>bf7be408-cbe3-4467-b8bb-ef30e9637e6b</tstamps>
+    </comp>
+    <comp ref="LED64">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>f5697bb0-7682-4bf4-9fe4-e3bafd4a2e26</tstamps>
+    </comp>
+    <comp ref="LED65">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>9f26d581-aee8-40fc-a042-8fe0490117d7</tstamps>
+    </comp>
+    <comp ref="LED66">
+      <value>LTST-E563CEGBW</value>
+      <footprint>NiksKiCadLibrary:LTSTE563CEGBW</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF</datasheet>
+      <fields>
+        <field name="Country of Origin">China</field>
+        <field name="Height">1.62</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-E563CEGBW</field>
+        <field name="Mouser Part Number">859-LTST-E563CEGBW</field>
+      </fields>
+      <libsource lib="NiksKiCadLibrary" part="LTST-E563CEGBW" description="LED Tri-Color Blue/Green/Red 4-Pin SMD T/R"/>
+      <property name="Height" value="1.62"/>
+      <property name="Mouser Part Number" value="859-LTST-E563CEGBW"/>
+      <property name="Manufacturer_Part_Number" value="LTST-E563CEGBW"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Country of Origin" value="China"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="LED Tri-Color Blue/Green/Red 4-Pin SMD T/R"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>4483691d-a59a-43f4-bd1b-0731582b3932</tstamps>
+    </comp>
+    <comp ref="LED67">
+      <value>LTST-E563CEGBW</value>
+      <footprint>NiksKiCadLibrary:LTSTE563CEGBW</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF</datasheet>
+      <fields>
+        <field name="Country of Origin">China</field>
+        <field name="Height">1.62</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-E563CEGBW</field>
+        <field name="Mouser Part Number">859-LTST-E563CEGBW</field>
+      </fields>
+      <libsource lib="NiksKiCadLibrary" part="LTST-E563CEGBW" description="LED Tri-Color Blue/Green/Red 4-Pin SMD T/R"/>
+      <property name="Height" value="1.62"/>
+      <property name="Mouser Part Number" value="859-LTST-E563CEGBW"/>
+      <property name="Manufacturer_Part_Number" value="LTST-E563CEGBW"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Country of Origin" value="China"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="LED Tri-Color Blue/Green/Red 4-Pin SMD T/R"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>26dd1383-6a65-49cc-8710-71a78d733d0b</tstamps>
+    </comp>
+    <comp ref="LED68">
+      <value>LTST-E563CEGBW</value>
+      <footprint>NiksKiCadLibrary:LTSTE563CEGBW</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF</datasheet>
+      <fields>
+        <field name="Country of Origin">China</field>
+        <field name="Height">1.62</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Manufacturer_Part_Number">LTST-E563CEGBW</field>
+        <field name="Mouser Part Number">859-LTST-E563CEGBW</field>
+      </fields>
+      <libsource lib="NiksKiCadLibrary" part="LTST-E563CEGBW" description="LED Tri-Color Blue/Green/Red 4-Pin SMD T/R"/>
+      <property name="Height" value="1.62"/>
+      <property name="Mouser Part Number" value="859-LTST-E563CEGBW"/>
+      <property name="Manufacturer_Part_Number" value="LTST-E563CEGBW"/>
+      <property name="Manufacturer_Name" value="Lite-On"/>
+      <property name="Country of Origin" value="China"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="LED Tri-Color Blue/Green/Red 4-Pin SMD T/R"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>f2014efb-1513-44f8-ba78-737c5bc2c84c</tstamps>
+    </comp>
+    <comp ref="Q60">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>643f94e1-f598-4cb7-a782-cb47b59bc7bb</tstamps>
+    </comp>
+    <comp ref="Q61">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>b4fa67f1-cfd4-431d-8e9a-d43278320669</tstamps>
+    </comp>
+    <comp ref="Q62">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>a35cd9b9-b129-4811-a412-2e81db8dc79b</tstamps>
+    </comp>
+    <comp ref="Q63">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>714aa268-eac6-4c22-8d05-56e32ea67e92</tstamps>
+    </comp>
+    <comp ref="Q64">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>143afe78-7f56-455c-8a25-b56af7ac7155</tstamps>
+    </comp>
+    <comp ref="Q65">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>5a4e95ca-3bbb-4b6e-b501-3f99f8ae8600</tstamps>
+    </comp>
+    <comp ref="R60">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>e4c8f4bf-07ab-4436-9580-b358c504bb54</tstamps>
+    </comp>
+    <comp ref="R61">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>0e6c4c6e-61c7-4ef4-9928-1c1b5797e15d</tstamps>
+    </comp>
+    <comp ref="R62">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>c0a474ef-b05a-40b4-b9f3-e809f77e6a18</tstamps>
+    </comp>
+    <comp ref="R63">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>bbecad8d-684a-4851-9c5d-4c51ba961314</tstamps>
+    </comp>
+    <comp ref="R64">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>ca060559-e377-43f0-8a05-177451a5c8b7</tstamps>
+    </comp>
+    <comp ref="R65">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 2"/>
+      <property name="Sheetfile" value="Praxis2.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 2/" tstamps="/5ad671c8-fb5f-4673-842f-e2f81bf862ac/"/>
+      <tstamps>785355d6-10af-4c58-863f-b6dcf73bef41</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>4b90436d-8872-457f-a3dc-8746353743af</tstamps>
+    </comp>
+    <comp ref="C62">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>dd58c7cd-b7f4-4d73-a11f-b11c30f1c668</tstamps>
+    </comp>
+    <comp ref="IC60">
+      <value>HCF4094YM013TR</value>
+      <footprint>NiksKiCadLibrary:SOIC-16-SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000399.pdf</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">HCF4094YM013TR</field>
+        <field name="Mouser Part Number">511-HCF4094YM013TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HCF4094YM013TR?qs=wkiPY8TIIKfZLRSu0KejOg%3D%3D</field>
+        <field name="Voltage">Vin: 3 ... 20 V</field>
+      </fields>
+      <libsource lib="" part="HCF4094YM013TR_1" description="Counter Shift Registers 8-Stage Shift 3-State 5MHz"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="511-HCF4094YM013TR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HCF4094YM013TR?qs=wkiPY8TIIKfZLRSu0KejOg%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="HCF4094YM013TR"/>
+      <property name="Voltage" value="Vin: 3 ... 20 V"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Counter Shift Registers 8-Stage Shift 3-State 5MHz"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>0f5a4f85-40ca-46dc-b1e1-424624fc9ed6</tstamps>
+    </comp>
+    <comp ref="IC61">
+      <value>HCF4094YM013TR</value>
+      <footprint>NiksKiCadLibrary:SOIC-16-SOIC127P600X175-16N</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000399.pdf</datasheet>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">HCF4094YM013TR</field>
+        <field name="Mouser Part Number">511-HCF4094YM013TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HCF4094YM013TR?qs=wkiPY8TIIKfZLRSu0KejOg%3D%3D</field>
+        <field name="Voltage">Vin: 3 ... 20 V</field>
+      </fields>
+      <libsource lib="NiksKiCadLibrary" part="HCF4094YM013TR" description="Counter Shift Registers 8-Stage Shift 3-State 5MHz"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="511-HCF4094YM013TR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HCF4094YM013TR?qs=wkiPY8TIIKfZLRSu0KejOg%3D%3D"/>
+      <property name="Manufacturer_Name" value="STMicroelectronics"/>
+      <property name="Manufacturer_Part_Number" value="HCF4094YM013TR"/>
+      <property name="Voltage" value="Vin: 3 ... 20 V"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Counter Shift Registers 8-Stage Shift 3-State 5MHz"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>52e7e807-5e16-4ad5-af3c-927b366521eb</tstamps>
+    </comp>
+    <comp ref="LED69">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>c53588c3-059a-4032-a2bf-bb8020bfafaf</tstamps>
+    </comp>
+    <comp ref="LED70">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>ce0178ee-984b-435f-92f3-af411d7943b1</tstamps>
+    </comp>
+    <comp ref="LED71">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>bc1c6e37-0cc1-4540-a90e-3ebe4460aee9</tstamps>
+    </comp>
+    <comp ref="LED72">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>1ab842a6-5ad2-492a-b9f3-5c85a38b625e</tstamps>
+    </comp>
+    <comp ref="LED73">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>98262aea-17a7-449f-819d-84bb8b735548</tstamps>
+    </comp>
+    <comp ref="LED74">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>4c66fc0d-8a0a-46ec-a6fc-49203ef19afa</tstamps>
+    </comp>
+    <comp ref="LED75">
+      <value>SML-LX1206SIC-TR</value>
+      <footprint>FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</footprint>
+      <datasheet>SML-LX1206SIC-TR</datasheet>
+      <libsource lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR" description=""/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="SML-LX1206SIC-TR"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>fc91b7d0-95c0-4990-a9c0-a0264655ce77</tstamps>
+    </comp>
+    <comp ref="Q66">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>aebb9a13-a825-4d84-907e-87edc6f51f3e</tstamps>
+    </comp>
+    <comp ref="Q67">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>8add3453-46d9-4536-8de2-b0d20ca0ca50</tstamps>
+    </comp>
+    <comp ref="Q68">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>73ebbb80-5abe-42e6-ba2b-b4e8c598f55f</tstamps>
+    </comp>
+    <comp ref="Q69">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>e0927c6e-5d98-49c8-b97e-c944fba97d12</tstamps>
+    </comp>
+    <comp ref="Q70">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>20e4193d-b59e-48e7-8456-d7b558a0ac65</tstamps>
+    </comp>
+    <comp ref="Q71">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>f42c00c4-cb4f-4a35-875d-4746e8d5bb50</tstamps>
+    </comp>
+    <comp ref="Q72">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel Switching MOSFET"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>ff475b9d-095c-4dbc-8bd7-094e5afc331b</tstamps>
+    </comp>
+    <comp ref="R66">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>f20d17cf-c22c-4b9b-b0f2-439f33b4988c</tstamps>
+    </comp>
+    <comp ref="R67">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>19a9460b-a857-4b18-bf59-e87036104f82</tstamps>
+    </comp>
+    <comp ref="R68">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>aa7d5c24-4b83-40dc-8dd4-0c372c2589da</tstamps>
+    </comp>
+    <comp ref="R69">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>b626ea67-e576-48fe-95d2-232d634317b9</tstamps>
+    </comp>
+    <comp ref="R70">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>3798c71a-4e45-4cb0-9cd4-f861fb53e59a</tstamps>
+    </comp>
+    <comp ref="R71">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>6a14c72e-f2b2-423d-9591-5485f5e567c6</tstamps>
+    </comp>
+    <comp ref="R72">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>e7ff9c2a-f1ed-412d-8cd1-6f751354b5ba</tstamps>
+    </comp>
+    <comp ref="R73">
+      <value>R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>955d8e71-38e1-4ff1-8cdd-48c675ac2573</tstamps>
+    </comp>
+    <comp ref="R74">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>88850726-c1fc-4509-bb5d-7d3f80f09da1</tstamps>
+    </comp>
+    <comp ref="R75">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>dc26418e-0352-4c23-9d50-158593fc2217</tstamps>
+    </comp>
+    <comp ref="R76">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>5ff2d80d-10f1-4453-b9fb-6f77a401a645</tstamps>
+    </comp>
+    <comp ref="R77">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>9cade36c-2e48-40f9-b3c4-e859725ce886</tstamps>
+    </comp>
+    <comp ref="R78">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>67aa95c0-4263-4fa5-b9c1-299e9b952a66</tstamps>
+    </comp>
+    <comp ref="SW60">
+      <value>MSS6-V-T_R</value>
+      <footprint>NiksKiCadLibrary:MSS6VTR</footprint>
+      <datasheet>http://www.dip.com.tw/en/en-product-information/en-switch005/item/download/2644_d484074ddae8110c965b39aa743c4160</datasheet>
+      <fields>
+        <field name="Function">Power Enable</field>
+        <field name="Height">2.9</field>
+        <field name="Manufacturer_Name">Diptronics</field>
+        <field name="Manufacturer_Part_Number">MSS6-V-T/R</field>
+        <field name="Mouser Part Number">113-MSS6-V-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diptronics/MSS6-V-T-R?qs=gTYE2QTfZfT81btvsnXi7w%3D%3D</field>
+      </fields>
+      <libsource lib="NiksKiCadLibrary" part="MSS6-V-T_R" description="Slide Switches Slide Type 2P2T (1.4mm height)"/>
+      <property name="Height" value="2.9"/>
+      <property name="Mouser Part Number" value="113-MSS6-V-T/R"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Diptronics/MSS6-V-T-R?qs=gTYE2QTfZfT81btvsnXi7w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Diptronics"/>
+      <property name="Manufacturer_Part_Number" value="MSS6-V-T/R"/>
+      <property name="Function" value="Power Enable"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="Slide Switches Slide Type 2P2T (1.4mm height)"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>1d9ee18c-2ba4-491a-a11c-64dd4aba7120</tstamps>
+    </comp>
+    <comp ref="SW61">
+      <value>B3U-3100P</value>
+      <footprint>SW_B3U-3100P_OMR</footprint>
+      <datasheet>B3U-3100P</datasheet>
+      <fields>
+        <field name="Function">Manual Clock</field>
+      </fields>
+      <libsource lib="" part="B3U-3100P_1" description=""/>
+      <property name="Function" value="Manual Clock"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="B3U-3100P"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>97cc683e-8c3c-4902-afac-f177131ed919</tstamps>
+    </comp>
+    <comp ref="SW62">
+      <value>B3U-3100P</value>
+      <footprint>SW_B3U-3100P_OMR</footprint>
+      <datasheet>B3U-3100P</datasheet>
+      <fields>
+        <field name="Function">Manual Data</field>
+      </fields>
+      <libsource lib="NiksKiCadLibrary" part="B3U-3100P" description=""/>
+      <property name="Function" value="Manual Data"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_keywords" value="B3U-3100P"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>a55b2770-6bc3-4916-8b21-3685b144e6b3</tstamps>
+    </comp>
+    <comp ref="TP60">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>6bf8a6de-01ee-4be4-8898-501d9bf96a00</tstamps>
+    </comp>
+    <comp ref="TP61">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>cdcfb34d-a090-4e1c-accf-0cbbc5664912</tstamps>
+    </comp>
+    <comp ref="TP62">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>16651a59-c1e0-4d2e-8bd2-5a3c67e6f301</tstamps>
+    </comp>
+    <comp ref="TP63">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>5cf5a81e-8159-4ad5-bb32-d90f5d2aedbc</tstamps>
+    </comp>
+    <comp ref="TP64">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>c18a06bf-085b-4b46-8341-5c7e3d7909c4</tstamps>
+    </comp>
+    <comp ref="TP65">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>e6e621fb-82f6-431f-a808-c769dc904ce6</tstamps>
+    </comp>
+    <comp ref="TP66">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>d3208a02-6f99-48a3-b90d-8724babdb79c</tstamps>
+    </comp>
+    <comp ref="TP67">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>58712248-b17e-4253-844e-a415c8fa6640</tstamps>
+    </comp>
+    <comp ref="TP68">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>26cdbd2d-0633-47a0-beb6-8e5619a1baeb</tstamps>
+    </comp>
+    <comp ref="TP69">
+      <value>TestPoint</value>
+      <footprint>NiksKiCadLibrary:TestPointSimpleSMD</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Praxis 3"/>
+      <property name="Sheetfile" value="Praxis3.kicad_sch"/>
+      <property name="ki_description" value="test point"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/Praxis 3/" tstamps="/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d/"/>
+      <tstamps>2ae8bfb8-4fa6-44da-85eb-e8104b7fe96e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="B3U-3100P_1">
+      <docs>B3U-3100P</docs>
+      <footprints>
+        <fp>SW_B3U-3100P_OMR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">B3U-3100P</field>
+        <field name="Footprint">SW_B3U-3100P_OMR</field>
+        <field name="Datasheet">B3U-3100P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="BOSS" type="free"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="HCF4094YM013TR_1">
+      <description>Counter Shift Registers 8-Stage Shift 3-State 5MHz</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000399.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">HCF4094YM013TR</field>
+        <field name="Footprint">NiksKiCadLibrary:SOIC-16-SOIC127P600X175-16N</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000399.pdf</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">511-HCF4094YM013TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HCF4094YM013TR?qs=wkiPY8TIIKfZLRSu0KejOg%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">HCF4094YM013TR</field>
+        <field name="Voltage">Vin: 3 ... 20 V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STROBE" type="input"/>
+        <pin num="2" name="DATA" type="input"/>
+        <pin num="3" name="CLOCK" type="input"/>
+        <pin num="4" name="Q1" type="output"/>
+        <pin num="5" name="Q2" type="output"/>
+        <pin num="6" name="Q3" type="output"/>
+        <pin num="7" name="Q4" type="output"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="QS" type="output"/>
+        <pin num="10" name="Q'S" type="output"/>
+        <pin num="11" name="Q8" type="output"/>
+        <pin num="12" name="Q7" type="output"/>
+        <pin num="13" name="Q6" type="output"/>
+        <pin num="14" name="Q5" type="output"/>
+        <pin num="15" name="OUTPUT_ENABLE" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="FabLabWintiLibrary" part="RPi-Pico">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RPi-Pico</field>
+        <field name="Footprint">FabLabWintiLibrary:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="41" name="SWCLK" type="input"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="FabLabWintiLibrary" part="SML-LX1206SIC-TR">
+      <docs>SML-LX1206SIC-TR</docs>
+      <footprints>
+        <fp>LED_SML-LX1206SIC-TR_LUM</fp>
+        <fp>LED_SML-LX1206SIC-TR_LUM-M</fp>
+        <fp>LED_SML-LX1206SIC-TR_LUM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">SML-LX1206SIC-TR</field>
+        <field name="Footprint">FabLabWintiLibrary:LED_SML-LX1206SIC-TR_LUM</field>
+        <field name="Datasheet">SML-LX1206SIC-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="NiksKiCadLibrary" part="B3U-3100P">
+      <docs>B3U-3100P</docs>
+      <footprints>
+        <fp>SW_B3U-3100P_OMR</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">B3U-3100P</field>
+        <field name="Footprint">SW_B3U-3100P_OMR</field>
+        <field name="Datasheet">B3U-3100P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="BOSS" type="free"/>
+      </pins>
+    </libpart>
+    <libpart lib="NiksKiCadLibrary" part="HCF4094YM013TR">
+      <description>Counter Shift Registers 8-Stage Shift 3-State 5MHz</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000399.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">HCF4094YM013TR</field>
+        <field name="Footprint">NiksKiCadLibrary:SOIC-16-SOIC127P600X175-16N</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000399.pdf</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">511-HCF4094YM013TR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HCF4094YM013TR?qs=wkiPY8TIIKfZLRSu0KejOg%3D%3D</field>
+        <field name="Manufacturer_Name">STMicroelectronics</field>
+        <field name="Manufacturer_Part_Number">HCF4094YM013TR</field>
+        <field name="Voltage">Vin: 3 ... 20 V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STROBE" type="input"/>
+        <pin num="2" name="DATA" type="input"/>
+        <pin num="3" name="CLOCK" type="input"/>
+        <pin num="4" name="Q1" type="output"/>
+        <pin num="5" name="Q2" type="output"/>
+        <pin num="6" name="Q3" type="output"/>
+        <pin num="7" name="Q4" type="output"/>
+        <pin num="8" name="VSS" type="passive"/>
+        <pin num="9" name="QS" type="output"/>
+        <pin num="10" name="Q'S" type="output"/>
+        <pin num="11" name="Q8" type="output"/>
+        <pin num="12" name="Q7" type="output"/>
+        <pin num="13" name="Q6" type="output"/>
+        <pin num="14" name="Q5" type="output"/>
+        <pin num="15" name="OUTPUT_ENABLE" type="input"/>
+        <pin num="16" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NiksKiCadLibrary" part="LTST-E563CEGBW">
+      <description>LED Tri-Color Blue/Green/Red 4-Pin SMD T/R</description>
+      <docs>https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LTST-E563CEGBW</field>
+        <field name="Footprint">NiksKiCadLibrary:LTSTE563CEGBW</field>
+        <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF</field>
+        <field name="Height">1.62</field>
+        <field name="Mouser Part Number">859-LTST-E563CEGBW</field>
+        <field name="Manufacturer_Part_Number">LTST-E563CEGBW</field>
+        <field name="Manufacturer_Name">Lite-On</field>
+        <field name="Country of Origin">China</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="passive"/>
+        <pin num="2" name="DIN" type="passive"/>
+        <pin num="3" name="DOUT" type="passive"/>
+        <pin num="4" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NiksKiCadLibrary" part="MSS6-V-T_R">
+      <description>Slide Switches Slide Type 2P2T (1.4mm height)</description>
+      <docs>http://www.dip.com.tw/en/en-product-information/en-switch005/item/download/2644_d484074ddae8110c965b39aa743c4160</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">MSS6-V-T_R</field>
+        <field name="Footprint">NiksKiCadLibrary:MSS6VTR</field>
+        <field name="Datasheet">http://www.dip.com.tw/en/en-product-information/en-switch005/item/download/2644_d484074ddae8110c965b39aa743c4160</field>
+        <field name="Height">2.9</field>
+        <field name="Mouser Part Number">113-MSS6-V-T/R</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diptronics/MSS6-V-T-R?qs=gTYE2QTfZfT81btvsnXi7w%3D%3D</field>
+        <field name="Manufacturer_Name">Diptronics</field>
+        <field name="Manufacturer_Part_Number">MSS6-V-T/R</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="NO_1" type="passive"/>
+        <pin num="B1" name="COM_1" type="passive"/>
+        <pin num="C1" name="NC_1" type="passive"/>
+        <pin num="D1" name="NO_2" type="passive"/>
+        <pin num="E1" name="COM_2" type="passive"/>
+        <pin num="F1" name="NC_2" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+        <pin num="MP3" name="MP3" type="passive"/>
+        <pin num="MP4" name="MP4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="2N7002">
+      <description>0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="NiksKiCadLibrary">
+      <uri>C:/01 NOSER/Sandbox/HW/NiksKiCadLibrary/NiksKiCadLibrary.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3">
+      <node ref="SW60" pin="B1" pinfunction="COM_1" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="/+5V">
+      <node ref="LED66" pin="4" pinfunction="VDD" pintype="passive"/>
+      <node ref="LED67" pin="4" pinfunction="VDD" pintype="passive"/>
+      <node ref="LED68" pin="4" pinfunction="VDD" pintype="passive"/>
+      <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="R61" pin="1" pintype="passive"/>
+      <node ref="R62" pin="1" pintype="passive"/>
+      <node ref="R63" pin="1" pintype="passive"/>
+      <node ref="R64" pin="1" pintype="passive"/>
+      <node ref="R65" pin="1" pintype="passive"/>
+      <node ref="SW60" pin="E1" pinfunction="COM_2" pintype="passive"/>
+      <node ref="U2" pin="40" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="3" name="/Praxis 3/+3v3">
+      <node ref="R75" pin="1" pintype="passive"/>
+      <node ref="R76" pin="1" pintype="passive"/>
+      <node ref="R77" pin="1" pintype="passive"/>
+      <node ref="R78" pin="1" pintype="passive"/>
+      <node ref="SW60" pin="A1" pinfunction="NO_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Praxis 3/+5v0">
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C62" pin="1" pintype="passive"/>
+      <node ref="IC60" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="IC61" pin="16" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R67" pin="1" pintype="passive"/>
+      <node ref="R68" pin="1" pintype="passive"/>
+      <node ref="R69" pin="1" pintype="passive"/>
+      <node ref="R70" pin="1" pintype="passive"/>
+      <node ref="R71" pin="1" pintype="passive"/>
+      <node ref="R72" pin="1" pintype="passive"/>
+      <node ref="R73" pin="1" pintype="passive"/>
+      <node ref="SW60" pin="D1" pinfunction="NO_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/Praxis 3/led0">
+      <node ref="IC60" pin="4" pinfunction="Q1" pintype="output"/>
+      <node ref="Q66" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="6" name="/Praxis 3/led1">
+      <node ref="IC60" pin="5" pinfunction="Q2" pintype="output"/>
+      <node ref="Q67" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="7" name="/Praxis 3/led2">
+      <node ref="IC60" pin="6" pinfunction="Q3" pintype="output"/>
+      <node ref="Q68" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="8" name="/Praxis 3/led3">
+      <node ref="IC60" pin="7" pinfunction="Q4" pintype="output"/>
+      <node ref="Q69" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="9" name="/Praxis 3/led4">
+      <node ref="IC60" pin="14" pinfunction="Q5" pintype="output"/>
+      <node ref="Q70" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="10" name="/Praxis 3/led5">
+      <node ref="IC60" pin="13" pinfunction="Q6" pintype="output"/>
+      <node ref="Q71" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="11" name="/Praxis 3/led15">
+      <node ref="IC61" pin="11" pinfunction="Q8" pintype="output"/>
+      <node ref="Q72" pin="1" pinfunction="G" pintype="input"/>
+    </net>
+    <net code="12" name="/clk">
+      <node ref="IC60" pin="3" pinfunction="CLOCK" pintype="input"/>
+      <node ref="IC61" pin="3" pinfunction="CLOCK" pintype="input"/>
+      <node ref="R74" pin="2" pintype="passive"/>
+      <node ref="R76" pin="2" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/data">
+      <node ref="IC60" pin="2" pinfunction="DATA" pintype="input"/>
+      <node ref="R66" pin="2" pintype="passive"/>
+      <node ref="R75" pin="2" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/en">
+      <node ref="IC60" pin="15" pinfunction="OUTPUT_ENABLE" pintype="input"/>
+      <node ref="IC61" pin="15" pinfunction="OUTPUT_ENABLE" pintype="input"/>
+      <node ref="R78" pin="2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/led1">
+      <node ref="Q60" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/led2">
+      <node ref="Q61" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/led3">
+      <node ref="Q62" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/led4">
+      <node ref="Q63" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/led5">
+      <node ref="Q64" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/led6">
+      <node ref="Q65" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/led_bus_din">
+      <node ref="LED66" pin="2" pinfunction="DIN" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/strobe">
+      <node ref="IC60" pin="1" pinfunction="STROBE" pintype="input"/>
+      <node ref="IC61" pin="1" pinfunction="STROBE" pintype="input"/>
+      <node ref="R77" pin="2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C62" pin="2" pintype="passive"/>
+      <node ref="IC60" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="IC61" pin="8" pinfunction="VSS" pintype="passive"/>
+      <node ref="LED66" pin="1" pinfunction="VSS" pintype="passive"/>
+      <node ref="LED67" pin="1" pinfunction="VSS" pintype="passive"/>
+      <node ref="LED68" pin="1" pinfunction="VSS" pintype="passive"/>
+      <node ref="Q60" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q61" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q62" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q63" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q64" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q65" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q66" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q67" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q68" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q69" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q70" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q71" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q72" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="SW60" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="SW60" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="SW60" pin="MP3" pinfunction="MP3" pintype="passive"/>
+      <node ref="SW60" pin="MP4" pinfunction="MP4" pintype="passive"/>
+      <node ref="SW61" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW61" pin="3" pinfunction="BOSS" pintype="free"/>
+      <node ref="SW62" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="SW62" pin="3" pinfunction="BOSS" pintype="free"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="33" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U2" pin="38" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="42" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="24" name="Net-(IC60-Q7)">
+      <node ref="IC60" pin="12" pinfunction="Q7" pintype="output"/>
+      <node ref="TP60" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(IC60-Q8)">
+      <node ref="IC60" pin="11" pinfunction="Q8" pintype="output"/>
+      <node ref="TP61" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(IC60-QS)">
+      <node ref="IC60" pin="9" pinfunction="QS" pintype="output"/>
+      <node ref="IC61" pin="2" pinfunction="DATA" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(IC61-Q1)">
+      <node ref="IC61" pin="4" pinfunction="Q1" pintype="output"/>
+      <node ref="TP62" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(IC61-Q2)">
+      <node ref="IC61" pin="5" pinfunction="Q2" pintype="output"/>
+      <node ref="TP63" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(IC61-Q3)">
+      <node ref="IC61" pin="6" pinfunction="Q3" pintype="output"/>
+      <node ref="TP64" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(IC61-Q4)">
+      <node ref="IC61" pin="7" pinfunction="Q4" pintype="output"/>
+      <node ref="TP65" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(IC61-Q5)">
+      <node ref="IC61" pin="14" pinfunction="Q5" pintype="output"/>
+      <node ref="TP66" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(IC61-Q6)">
+      <node ref="IC61" pin="13" pinfunction="Q6" pintype="output"/>
+      <node ref="TP67" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(IC61-Q7)">
+      <node ref="IC61" pin="12" pinfunction="Q7" pintype="output"/>
+      <node ref="TP68" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(IC61-QS)">
+      <node ref="IC61" pin="9" pinfunction="QS" pintype="output"/>
+      <node ref="TP69" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(J10-Pin_1)">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(J10-Pin_2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(J11-Pin_1)">
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(J11-Pin_2)">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(J12-Pin_1)">
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(J12-Pin_2)">
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J13-Pin_1)">
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(J13-Pin_2)">
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(LED60-Pad2)">
+      <node ref="LED60" pin="2" pintype="unspecified"/>
+      <node ref="R60" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(LED61-Pad2)">
+      <node ref="LED61" pin="2" pintype="unspecified"/>
+      <node ref="R61" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(LED62-Pad2)">
+      <node ref="LED62" pin="2" pintype="unspecified"/>
+      <node ref="R62" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(LED63-Pad2)">
+      <node ref="LED63" pin="2" pintype="unspecified"/>
+      <node ref="R63" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(LED64-Pad2)">
+      <node ref="LED64" pin="2" pintype="unspecified"/>
+      <node ref="R64" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(LED65-Pad2)">
+      <node ref="LED65" pin="2" pintype="unspecified"/>
+      <node ref="R65" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(LED66-DOUT)">
+      <node ref="LED66" pin="3" pinfunction="DOUT" pintype="passive"/>
+      <node ref="LED67" pin="2" pinfunction="DIN" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(LED67-DOUT)">
+      <node ref="LED67" pin="3" pinfunction="DOUT" pintype="passive"/>
+      <node ref="LED68" pin="2" pinfunction="DIN" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(LED69-Pad2)">
+      <node ref="LED69" pin="2" pintype="unspecified"/>
+      <node ref="R67" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(LED70-Pad2)">
+      <node ref="LED70" pin="2" pintype="unspecified"/>
+      <node ref="R68" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(LED71-Pad2)">
+      <node ref="LED71" pin="2" pintype="unspecified"/>
+      <node ref="R69" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(LED72-Pad2)">
+      <node ref="LED72" pin="2" pintype="unspecified"/>
+      <node ref="R70" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(LED73-Pad2)">
+      <node ref="LED73" pin="2" pintype="unspecified"/>
+      <node ref="R71" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(LED74-Pad2)">
+      <node ref="LED74" pin="2" pintype="unspecified"/>
+      <node ref="R72" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(LED75-Pad2)">
+      <node ref="LED75" pin="2" pintype="unspecified"/>
+      <node ref="R73" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q60-D)">
+      <node ref="LED60" pin="1" pintype="unspecified"/>
+      <node ref="Q60" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q61-D)">
+      <node ref="LED61" pin="1" pintype="unspecified"/>
+      <node ref="Q61" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q62-D)">
+      <node ref="LED62" pin="1" pintype="unspecified"/>
+      <node ref="Q62" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q63-D)">
+      <node ref="LED63" pin="1" pintype="unspecified"/>
+      <node ref="Q63" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q64-D)">
+      <node ref="LED64" pin="1" pintype="unspecified"/>
+      <node ref="Q64" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q65-D)">
+      <node ref="LED65" pin="1" pintype="unspecified"/>
+      <node ref="Q65" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q66-D)">
+      <node ref="LED69" pin="1" pintype="unspecified"/>
+      <node ref="Q66" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q67-D)">
+      <node ref="LED70" pin="1" pintype="unspecified"/>
+      <node ref="Q67" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q68-D)">
+      <node ref="LED71" pin="1" pintype="unspecified"/>
+      <node ref="Q68" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q69-D)">
+      <node ref="LED72" pin="1" pintype="unspecified"/>
+      <node ref="Q69" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q70-D)">
+      <node ref="LED73" pin="1" pintype="unspecified"/>
+      <node ref="Q70" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q71-D)">
+      <node ref="LED74" pin="1" pintype="unspecified"/>
+      <node ref="Q71" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q72-D)">
+      <node ref="LED75" pin="1" pintype="unspecified"/>
+      <node ref="Q72" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="80" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="81" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="82" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="83" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="85" name="Net-(R35-Pad1)">
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+    </net>
+    <net code="86" name="Net-(R36-Pad2)">
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+    </net>
+    <net code="87" name="Net-(R37-Pad1)">
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="88" name="Net-(R38-Pad2)">
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+    </net>
+    <net code="89" name="Net-(R66-Pad1)">
+      <node ref="R66" pin="1" pintype="passive"/>
+      <node ref="SW62" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="90" name="Net-(R74-Pad1)">
+      <node ref="R74" pin="1" pintype="passive"/>
+      <node ref="SW61" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="91" name="unconnected-(IC60-Q'S-Pad10)">
+      <node ref="IC60" pin="10" pinfunction="Q'S" pintype="output+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(IC61-Q'S-Pad10)">
+      <node ref="IC61" pin="10" pinfunction="Q'S" pintype="output+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(LED68-DOUT-Pad3)">
+      <node ref="LED68" pin="3" pinfunction="DOUT" pintype="passive"/>
+    </net>
+    <net code="94" name="unconnected-(SW60-NC_1-PadC1)">
+      <node ref="SW60" pin="C1" pinfunction="NC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(SW60-NC_2-PadF1)">
+      <node ref="SW60" pin="F1" pinfunction="NC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U2A-GPIO6-Pad9)">
+      <node ref="U2" pin="9" pinfunction="GPIO6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U2A-GPIO7-Pad10)">
+      <node ref="U2" pin="10" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U2A-GPIO9-Pad12)">
+      <node ref="U2" pin="12" pinfunction="GPIO9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U2A-GPIO10-Pad14)">
+      <node ref="U2" pin="14" pinfunction="GPIO10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U2A-GPIO11-Pad15)">
+      <node ref="U2" pin="15" pinfunction="GPIO11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U2A-GPIO12-Pad16)">
+      <node ref="U2" pin="16" pinfunction="GPIO12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U2A-GPIO13-Pad17)">
+      <node ref="U2" pin="17" pinfunction="GPIO13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U2A-GPIO14-Pad19)">
+      <node ref="U2" pin="19" pinfunction="GPIO14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U2A-GPIO15-Pad20)">
+      <node ref="U2" pin="20" pinfunction="GPIO15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U2A-GPIO20-Pad26)">
+      <node ref="U2" pin="26" pinfunction="GPIO20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U2A-GPIO21-Pad27)">
+      <node ref="U2" pin="27" pinfunction="GPIO21" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U2A-GPIO22-Pad29)">
+      <node ref="U2" pin="29" pinfunction="GPIO22" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U2A-GPIO26_ADC0-Pad31)">
+      <node ref="U2" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U2A-GPIO27_ADC1-Pad32)">
+      <node ref="U2" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U2A-GPIO28_ADC2-Pad34)">
+      <node ref="U2" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U2A-RUN-Pad30)">
+      <node ref="U2" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="112" name="unconnected-(U2B-3V3_EN-Pad37)">
+      <node ref="U2" pin="37" pinfunction="3V3_EN" pintype="input+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U2B-ADC_VREF-Pad35)">
+      <node ref="U2" pin="35" pinfunction="ADC_VREF" pintype="power_in+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U2B-SWCLK-Pad41)">
+      <node ref="U2" pin="41" pinfunction="SWCLK" pintype="input+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U2B-SWDIO-Pad43)">
+      <node ref="U2" pin="43" pinfunction="SWDIO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U2B-VSYS-Pad39)">
+      <node ref="U2" pin="39" pinfunction="VSYS" pintype="power_in+no_connect"/>
+    </net>
+  </nets>
+</export>
