@@ -15,7 +15,7 @@ https://docs.google.com/spreadsheets/d/1WpgOzNOipdzf3TUjmOTJRN6nh91fH2xWKgcdvkkk
 
 ### Python Script
 1. Download the thonny app: https://thonny.org/.
-2. Configure it: go to "Tools/Options...", enter "Interpreter" and select the interpreter for the raspberry pi pico and click "OK".
+2. Go to "Tools/Options...", enter "Interpreter" and select the interpreter for the raspberry pi pico and click "OK".
 3. (Re-)Connect the raspberry (without pressing the boot button).
 4. Click on the "Stop" button.
 5. Load the script you want to download to the raspi.
