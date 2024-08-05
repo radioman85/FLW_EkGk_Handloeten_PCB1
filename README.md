@@ -6,3 +6,6 @@ https://docs.google.com/presentation/d/1JOqmXC7s-w-8xuSVpEcdlVL24fG4e7r5I_c3oc2P
 
 ### BOM
 https://docs.google.com/spreadsheets/d/1WpgOzNOipdzf3TUjmOTJRN6nh91fH2xWKgcdvkkk7AQ/edit?usp=sharing
+
+### Raspberry Pi Pico - Firmware
+1. Update firmware of the raspberry py pico by downloading the ".uf2" file from (link)[https://micropython.org/download/RPI_PICO/]
