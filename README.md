@@ -7,13 +7,15 @@ https://docs.google.com/presentation/d/1JOqmXC7s-w-8xuSVpEcdlVL24fG4e7r5I_c3oc2P
 ### BOM
 https://docs.google.com/spreadsheets/d/1WpgOzNOipdzf3TUjmOTJRN6nh91fH2xWKgcdvkkk7AQ/edit?usp=sharing
 
-### Raspberry Pi Pico - MicroPython Firmware
+### Programming Pi Pico
+## 1. Update MicroPython Firmware
 1. Update firmware of the raspberry py pico by downloading the ".uf2" file from [micropython.org](https://micropython.org/download/RPI_PICO/)
 2. Hold boot button and connect the raspi to the PC.
 3. Drag and drop the .uf2 file to the raspi's drive.
    ... it will disconnect automatically => i.e. ready to get programmed.
 
-### Python Script
+## 2. Python Script
+Be aware that the thonny app may not work perfectly. You may always need to "re"-open the code befor download it. 
 1. Download the thonny app: https://thonny.org/.
 2. Go to "Tools/Options...", enter "Interpreter" and select the interpreter for the raspberry pi pico and click "OK".
 3. (Re-)Connect the raspberry (without pressing the boot button).
