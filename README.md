@@ -1,11 +1,8 @@
-[FabLab - Handlötkurs 02-2025.pdf](https://github.com/user-attachments/files/19078771/FabLab.-.Handlotkurs.02-2025.pdf)### Kurs-Dok
-https://docs.google.com/document/d/1QbJ0WCrbPe96hOyB1JiNt0ZYFWMCxjqOIoHpIzepziQ/edit?usp=drive_link
-
 ### Präsentation
-[Uploading FabLab - Handlötkurs 02-2025.pdf…]()
+[FabLab - Handlötkurs 02-2025.pdf](https://github.com/user-attachments/files/19078771/FabLab.-.Handlotkurs.02-2025.pdf)
 
 ### BOM
-https://docs.google.com/spreadsheets/d/1WpgOzNOipdzf3TUjmOTJRN6nh91fH2xWKgcdvkkk7AQ/edit?usp=sharing
+Currently unavailable
 
 ### Programming Pi Pico
 ## 1. Update MicroPython Firmware
