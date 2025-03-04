@@ -16,7 +16,7 @@ Be aware that the thonny app may not work perfectly. You may always need to "re"
 1. Download the thonny app: https://thonny.org/.
 2. Go to "Tools/Options...", enter "Interpreter" and select the interpreter for the raspberry pi pico and click "OK".
 3. (Re-)Connect the raspberry (without pressing the boot button).
-4. Click on the "Stop" button.
+4. In the app click on the "Stop" button.
 5. Load the script you want to download to the raspi.
 6. Go to "Save as", where it asks for either save on PC or on Raspberry (if not asked, the raspberry is not connected correctly (its firmware may not be up-to-date)).
 7. Select "Raspberry Pi".
