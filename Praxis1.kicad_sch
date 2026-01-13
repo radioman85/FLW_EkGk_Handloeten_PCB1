@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "b499ec30-e1a7-41a9-b1f4-44d9cc647094")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,14 +76,14 @@
 			)
 			(symbol "Conn_01x02_1_1"
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
@@ -96,14 +98,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -143,9 +145,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -264,7 +269,65 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 116.84 109.22)
+		(end 177.8 139.7)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0449ac42-6d63-4ddf-8d2b-aaddaac30dd5)
+	)
+	(rectangle
+		(start 116.84 71.12)
+		(end 177.8 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a5dd070-e8ea-481e-891e-2d29f255f13c)
+	)
+	(text "Einseitig vorgelötet"
+		(exclude_from_sim no)
+		(at 118.11 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b100f67-2a1c-46fe-9389-18a239b9af34")
+	)
+	(text "FABLAB Winti - Lötkurs Praxis 1"
+		(exclude_from_sim no)
+		(at 187.96 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bafe1ff6-09cb-4155-aed9-47758e525bf1")
+	)
+	(text "Zum selber Bestücken"
+		(exclude_from_sim no)
+		(at 118.11 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc8b0423-4137-41d3-b660-15aff4443680")
 	)
 	(junction
 		(at 163.83 135.89)
@@ -1211,63 +1274,6 @@
 			(type default)
 		)
 		(uuid "ed4c030f-38a9-47be-8348-f5fc7ee02f3b")
-	)
-	(rectangle
-		(start 116.84 109.22)
-		(end 177.8 139.7)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0449ac42-6d63-4ddf-8d2b-aaddaac30dd5)
-	)
-	(rectangle
-		(start 116.84 71.12)
-		(end 177.8 101.6)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9a5dd070-e8ea-481e-891e-2d29f255f13c)
-	)
-	(text "Einseitig vorgelötet"
-		(exclude_from_sim no)
-		(at 118.11 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6b100f67-2a1c-46fe-9389-18a239b9af34")
-	)
-	(text "FABLAB Winti - Lötkurs Praxis 1"
-		(exclude_from_sim no)
-		(at 187.96 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bafe1ff6-09cb-4155-aed9-47758e525bf1")
-	)
-	(text "Zum selber Bestücken"
-		(exclude_from_sim no)
-		(at 118.11 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc8b0423-4137-41d3-b660-15aff4443680")
 	)
 	(symbol
 		(lib_id "Device:R")
