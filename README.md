@@ -14,7 +14,7 @@ Currently unavailable
 3. In the Thonny app on the right bottom corner you can see your connected pico. From there install the micro python firmware
 
 
-## 3. Python Script
+## Python Script
 1. Once the pico has received its micro python firmware click on the "Stop" button on top of the thonny app.
 5. Load the script you want to download to the raspi.
 6. Go to "Save as", where it asks for either save on PC or on Raspberry (if not asked, the raspberry is not connected correctly (its firmware may not be up-to-date)).
