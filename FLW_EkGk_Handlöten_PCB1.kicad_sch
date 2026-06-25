@@ -1140,6 +1140,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 69.85) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0624923d-9677-4a6f-bcb6-740869d49ef0")
+	)
+	(wire
+		(pts
 			(xy 35.56 130.81) (xy 41.91 130.81)
 		)
 		(stroke
@@ -1407,6 +1417,16 @@
 			(type default)
 		)
 		(uuid "df255df7-33b9-4e69-9bfa-1a7bf1f4773b")
+	)
+	(wire
+		(pts
+			(xy 81.28 72.39) (xy 81.28 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bbca68-628d-4d1c-b664-83081f3e13d4")
 	)
 	(wire
 		(pts
@@ -2000,6 +2020,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 81.28 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56dd3a15-99be-4c60-a074-868b98278e39")
+		(property "Reference" "#PWR077"
+			(at 81.28 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fac32ff9-b396-4de2-99a2-198fdf955d35")
+		)
+		(instances
+			(project "FLW_EkGk_Handlöten_PCB1"
+				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "FabLabWintiLibrary:RPi-Pico")
 		(at 41.91 130.81 0)
 		(unit 2)
@@ -2470,6 +2568,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 76.2 69.85 0)
+			(uuid "2bd14bed-9433-4c3c-9c1f-eeeea78ba232")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
