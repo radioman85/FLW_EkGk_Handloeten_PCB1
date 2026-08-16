@@ -1739,6 +1739,12 @@
 		)
 		(uuid "35420521-ab25-41f0-bd03-78227870648b")
 	)
+	(junction
+		(at 87.63 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5996f8-773e-4e40-84d8-627a95bec231")
+	)
 	(wire
 		(pts
 			(xy 163.83 43.18) (xy 163.83 48.26)
@@ -1781,6 +1787,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 128.27) (xy 114.3 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f5b137-ca60-41c4-abe9-8f4697e0651e")
+	)
+	(wire
+		(pts
 			(xy 163.83 58.42) (xy 163.83 64.77)
 		)
 		(stroke
@@ -1791,7 +1807,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 133.35) (xy 124.46 133.35)
+			(xy 142.24 128.27) (xy 158.75 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1831,13 +1847,53 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 133.35) (xy 171.45 133.35)
+			(xy 87.63 116.84) (xy 87.63 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87ae0bb9-8150-429c-8b72-e74e3c461ccc")
+	)
+	(wire
+		(pts
+			(xy 76.2 134.62) (xy 80.01 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89640a3e-9cfb-45b9-a08e-0c6a5bf7bb8d")
+	)
+	(wire
+		(pts
+			(xy 186.69 128.27) (xy 205.74 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94063ddb-8af1-408f-8143-d5359a12f622")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 87.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b80ff94d-16ca-4e93-86d8-672919a0b3fc")
+	)
+	(wire
+		(pts
+			(xy 87.63 139.7) (xy 87.63 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a1d876-d111-4c13-a378-b62e9cbbeca7")
 	)
 	(wire
 		(pts
@@ -1848,6 +1904,16 @@
 			(type default)
 		)
 		(uuid "c8be52e9-cf78-4528-bf97-195c211b3ec0")
+	)
+	(wire
+		(pts
+			(xy 87.63 127) (xy 87.63 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ef6327-e389-42be-b2cc-2f57bf82b455")
 	)
 	(wire
 		(pts
@@ -1903,7 +1969,7 @@
 	)
 	(hierarchical_label "LED_BUS_DIN"
 		(shape input)
-		(at 80.01 133.35 180)
+		(at 76.2 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1925,7 +1991,7 @@
 	)
 	(hierarchical_label "VDD_5V"
 		(shape input)
-		(at 171.45 140.97 180)
+		(at 205.74 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2013,7 +2079,7 @@
 	)
 	(hierarchical_label "VDD_5V"
 		(shape input)
-		(at 124.46 140.97 180)
+		(at 158.75 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2021,6 +2087,17 @@
 			(justify right)
 		)
 		(uuid "dadfeea7-d858-4715-bb77-f8308b8b3b17")
+	)
+	(hierarchical_label "VDD_5V"
+		(shape input)
+		(at 87.63 116.84 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efb99293-8401-45d0-a26c-de56ce5e626f")
 	)
 	(hierarchical_label "VDD_5V"
 		(shape input)
@@ -2046,7 +2123,7 @@
 	)
 	(hierarchical_label "VDD_5V"
 		(shape input)
-		(at 80.01 140.97 180)
+		(at 114.3 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,7 +2212,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 140.97 0)
+		(at 233.68 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2145,7 +2222,7 @@
 		(dnp no)
 		(uuid "08a97942-dda3-4b36-b257-2403b955cd20")
 		(property "Reference" "#PWR066"
-			(at 199.39 147.32 0)
+			(at 233.68 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2156,7 +2233,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 197.485 144.78 0)
+			(at 231.775 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2167,7 +2244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 140.97 0)
+			(at 233.68 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2178,7 +2255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 140.97 0)
+			(at 233.68 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2189,7 +2266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 140.97 0)
+			(at 233.68 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2537,7 @@
 	)
 	(symbol
 		(lib_id "NiksKiCadLibrary:LTST-E563CEGBW")
-		(at 124.46 133.35 0)
+		(at 158.75 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2471,7 +2548,7 @@
 		(fields_autoplaced yes)
 		(uuid "26dd1383-6a65-49cc-8710-71a78d733d0b")
 		(property "Reference" "LED67"
-			(at 138.43 127 0)
+			(at 172.72 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2481,7 +2558,7 @@
 			)
 		)
 		(property "Value" "LTST-E563CEGBW"
-			(at 138.43 129.54 0)
+			(at 172.72 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2491,7 +2568,7 @@
 			)
 		)
 		(property "Footprint" "NiksKiCadLibrary:LTSTE563CEGBW"
-			(at 124.714 149.606 0)
+			(at 159.004 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2503,7 +2580,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF"
-			(at 124.968 149.606 0)
+			(at 159.258 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2592,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 133.35 0)
+			(at 158.75 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2603,7 @@
 			)
 		)
 		(property "Height" "1.62"
-			(at 124.968 156.718 0)
+			(at 159.258 151.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2538,7 +2615,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-E563CEGBW"
-			(at 124.968 161.798 0)
+			(at 159.258 156.718 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2550,7 +2627,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-E563CEGBW"
-			(at 124.714 159.258 0)
+			(at 159.004 154.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,7 +2639,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at 124.968 154.178 0)
+			(at 159.258 149.098 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2574,7 +2651,7 @@
 			)
 		)
 		(property "Country of Origin" "China"
-			(at 138.43 129.54 0)
+			(at 172.72 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2600,6 +2677,84 @@
 			(project "FLW_EkGk_Handlöten_PCB1"
 				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5ad671c8-fb5f-4673-842f-e2f81bf862ac"
 					(reference "LED67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27147f23-d990-48dd-93cc-1574a5b6dd1d")
+		(property "Reference" "#PWR070"
+			(at 87.63 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "419effe9-0e8b-41e1-8189-44c25e655863")
+		)
+		(instances
+			(project "FLW_EkGk_Handlöten_PCB1"
+				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5ad671c8-fb5f-4673-842f-e2f81bf862ac"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2846,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 140.97 0)
+		(at 142.24 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2701,7 +2856,7 @@
 		(dnp no)
 		(uuid "41105932-0027-417e-aa4f-af36facd4062")
 		(property "Reference" "#PWR068"
-			(at 107.95 147.32 0)
+			(at 142.24 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2712,7 +2867,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.045 144.78 0)
+			(at 140.335 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2723,7 +2878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 140.97 0)
+			(at 142.24 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2734,7 +2889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 140.97 0)
+			(at 142.24 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2745,7 +2900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 140.97 0)
+			(at 142.24 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2924,7 @@
 	)
 	(symbol
 		(lib_id "NiksKiCadLibrary:LTST-E563CEGBW")
-		(at 80.01 133.35 0)
+		(at 114.3 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2780,7 +2935,7 @@
 		(fields_autoplaced yes)
 		(uuid "4483691d-a59a-43f4-bd1b-0731582b3932")
 		(property "Reference" "LED66"
-			(at 93.98 127 0)
+			(at 128.27 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2790,7 +2945,7 @@
 			)
 		)
 		(property "Value" "LTST-E563CEGBW"
-			(at 93.98 129.54 0)
+			(at 128.27 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2800,7 +2955,7 @@
 			)
 		)
 		(property "Footprint" "NiksKiCadLibrary:LTSTE563CEGBW"
-			(at 80.264 149.606 0)
+			(at 114.554 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2812,7 +2967,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF"
-			(at 80.518 149.606 0)
+			(at 114.808 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2824,7 +2979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 133.35 0)
+			(at 114.3 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2835,7 +2990,7 @@
 			)
 		)
 		(property "Height" "1.62"
-			(at 80.518 156.718 0)
+			(at 114.808 151.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2847,7 +3002,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-E563CEGBW"
-			(at 80.518 161.798 0)
+			(at 114.808 156.718 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +3014,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-E563CEGBW"
-			(at 80.264 159.258 0)
+			(at 114.554 154.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2871,7 +3026,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at 80.518 154.178 0)
+			(at 114.808 149.098 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +3038,7 @@
 			)
 		)
 		(property "Country of Origin" "China"
-			(at 93.98 129.54 0)
+			(at 128.27 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,6 +3064,94 @@
 			(project "FLW_EkGk_Handlöten_PCB1"
 				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5ad671c8-fb5f-4673-842f-e2f81bf862ac"
 					(reference "LED66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 85.09 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4639949d-c338-4f0e-a04b-62f4a79af91e")
+		(property "Reference" "Q73"
+			(at 91.44 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 91.44 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 90.17 136.525 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69f0d3a3-22d1-4cac-ae9c-e42896de8c95")
+		)
+		(pin "2"
+			(uuid "7e976239-4cda-4efa-b85d-cbff4426768d")
+		)
+		(pin "3"
+			(uuid "ded9f528-9f43-4274-aecf-fc34fb663c93")
+		)
+		(instances
+			(project "FLW_EkGk_Handlöten_PCB1"
+				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5ad671c8-fb5f-4673-842f-e2f81bf862ac"
+					(reference "Q73")
 					(unit 1)
 				)
 			)
@@ -3258,6 +3501,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 87.63 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "751eeac4-301b-4273-8d8f-ccd54eff2f17")
+		(property "Reference" "R79"
+			(at 90.17 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 90.17 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 85.852 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ef5c065-1b19-4fd7-b7b3-072082060a24")
+		)
+		(pin "2"
+			(uuid "fb27c2be-7570-47cb-8fb0-b0d0442dca07")
+		)
+		(instances
+			(project "FLW_EkGk_Handlöten_PCB1"
+				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5ad671c8-fb5f-4673-842f-e2f81bf862ac"
+					(reference "R79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 232.41 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -3339,7 +3664,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 140.97 0)
+		(at 186.69 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3349,7 +3674,7 @@
 		(dnp no)
 		(uuid "8f43807d-8a41-42a4-94c4-def776926e51")
 		(property "Reference" "#PWR071"
-			(at 152.4 147.32 0)
+			(at 186.69 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3685,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 150.495 144.78 0)
+			(at 184.785 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3371,7 +3696,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 140.97 0)
+			(at 186.69 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3382,7 +3707,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 140.97 0)
+			(at 186.69 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3393,7 +3718,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 140.97 0)
+			(at 186.69 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4487,7 +4812,7 @@
 	)
 	(symbol
 		(lib_id "NiksKiCadLibrary:LTST-E563CEGBW")
-		(at 171.45 133.35 0)
+		(at 205.74 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4498,7 +4823,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2014efb-1513-44f8-ba78-737c5bc2c84c")
 		(property "Reference" "LED68"
-			(at 185.42 127 0)
+			(at 219.71 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,7 +4833,7 @@
 			)
 		)
 		(property "Value" "LTST-E563CEGBW"
-			(at 185.42 129.54 0)
+			(at 219.71 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4518,7 +4843,7 @@
 			)
 		)
 		(property "Footprint" "NiksKiCadLibrary:LTSTE563CEGBW"
-			(at 171.704 149.606 0)
+			(at 205.994 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4855,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS35-2018-0038/LTST-E563CEGBW.PDF"
-			(at 171.958 149.606 0)
+			(at 206.248 144.526 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 133.35 0)
+			(at 205.74 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4553,7 +4878,7 @@
 			)
 		)
 		(property "Height" "1.62"
-			(at 171.958 156.718 0)
+			(at 206.248 151.638 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,7 +4890,7 @@
 			)
 		)
 		(property "Mouser Part Number" "859-LTST-E563CEGBW"
-			(at 171.958 161.798 0)
+			(at 206.248 156.718 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4577,7 +4902,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LTST-E563CEGBW"
-			(at 171.704 159.258 0)
+			(at 205.994 154.178 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,7 +4914,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Lite-On"
-			(at 171.958 154.178 0)
+			(at 206.248 149.098 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4601,7 +4926,7 @@
 			)
 		)
 		(property "Country of Origin" "China"
-			(at 185.42 129.54 0)
+			(at 219.71 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
