@@ -2398,12 +2398,8 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
+		(symbol "Niks_SW:KSC721J LFS"
 			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2412,18 +2408,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+				(at 7.112 3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2432,8 +2417,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NiksKiCadLibrary:SW_Push_1P1T_NO_CK_KSC7xxJ"
+				(at 5.334 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2444,17 +2439,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2465,7 +2449,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2476,9 +2460,42 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
+			(property "MNP" "KSC721J LFS"
+				(at 11.43 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFG" "C&K"
+				(at 0.254 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Origin" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KSC721J LFS_0_1"
 				(circle
-					(center -2.032 0)
+					(center 3.048 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2490,7 +2507,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 5.08 1.27) (xy 5.08 3.048)
 					)
 					(stroke
 						(width 0)
@@ -2501,7 +2518,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 7.112 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -2513,7 +2530,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 7.62 1.27) (xy 2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2523,8 +2540,10 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "KSC721J LFS_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -2542,7 +2561,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 10.16 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -5089,7 +5108,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Slide Switches Slide Type 2P2T (1.4mm height)"
 			(at 66.04 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6015,6 +6034,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Niks_SW:KSC721J LFS")
+		(at 224.79 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "51218472-f447-48e1-bd24-b3bcd8e4ccf5")
+		(property "Reference" "SW64"
+			(at 230.124 146.558 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 230.378 146.812 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NiksKiCadLibrary:SW_Push_1P1T_NO_CK_KSC7xxJ"
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNP" "KSC721J LFS"
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "C&K"
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Origin" ""
+			(at 224.79 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d811dd75-8a29-483e-82bf-a05c1f64f65f")
+		)
+		(pin "2"
+			(uuid "07706619-461c-451c-aa2a-d16de9d47146")
+		)
+		(instances
+			(project "FLW_EkGk_Handlöten_PCB1"
+				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d"
+					(reference "SW64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "NiksKiCadLibrary:HCF4094YM013TR")
 		(at 199.39 77.47 0)
 		(unit 1)
@@ -6928,6 +7060,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Niks_SW:KSC721J LFS")
+		(at 224.79 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "739e0b50-fbdf-4d43-ac27-b1f146a1a2a5")
+		(property "Reference" "SW63"
+			(at 230.124 126.238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 230.378 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NiksKiCadLibrary:SW_Push_1P1T_NO_CK_KSC7xxJ"
+			(at 224.79 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MNP" "KSC721J LFS"
+			(at 224.79 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFG" "C&K"
+			(at 224.79 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Origin" ""
+			(at 224.79 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ba34664-376d-4838-983a-f34d72ad194b")
+		)
+		(pin "2"
+			(uuid "04aa0fcd-72dd-4736-8495-2be88d1b318a")
+		)
+		(instances
+			(project "FLW_EkGk_Handlöten_PCB1"
+				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d"
+					(reference "SW63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 64.77 171.45 0)
 		(unit 1)
@@ -7584,86 +7829,6 @@
 			(project "FLW_EkGk_Handlöten_PCB1"
 				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 229.87 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a79f9865-21d2-4c52-822f-2b2cfd7d0180")
-		(property "Reference" "SW64"
-			(at 229.87 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 229.87 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 229.87 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 229.87 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74b215b6-fe3a-420b-aae4-d908eb5a5560")
-		)
-		(pin "2"
-			(uuid "6ac315c3-d9ba-4b60-a9d3-41c313ab4ba1")
-		)
-		(instances
-			(project "FLW_EkGk_Handlöten_PCB1"
-				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d"
-					(reference "SW64")
 					(unit 1)
 				)
 			)
@@ -8779,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 77.47 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9211,86 +9376,6 @@
 			(project "FLW_EkGk_Handlöten_PCB1"
 				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d"
 					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 229.87 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eabffdd8-a382-4343-b3e3-0bcb390b8615")
-		(property "Reference" "SW63"
-			(at 229.87 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 229.87 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 229.87 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 229.87 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 229.87 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59c038f5-a217-4017-ad9c-50f59af5f423")
-		)
-		(pin "2"
-			(uuid "75e2f862-baaf-4338-9c59-477b9edcc2ae")
-		)
-		(instances
-			(project "FLW_EkGk_Handlöten_PCB1"
-				(path "/db211800-561f-4a5f-a2c7-7ea3433d307f/5715bbb9-a5c5-4f42-9ee1-fed89f2d507d"
-					(reference "SW63")
 					(unit 1)
 				)
 			)
